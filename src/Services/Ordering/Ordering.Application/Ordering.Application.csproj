@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\BuildingBlocks\BuildingBlocks\BuildingBlocks.csproj" />
+    <ProjectReference Include="..\Ordering.Domain\Ordering.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Dtos\" />
+    <Folder Include="Exceptions\" />
+    <Folder Include="Extentions\" />
+    <Folder Include="Orders\Commands\CreateOrder\" />
+    <Folder Include="Orders\Commands\DeleteOrder\" />
+    <Folder Include="Orders\Commands\UpdateOrder\" />
+    <Folder Include="Orders\EventHandlers\Domain\" />
+    <Folder Include="Orders\EventHandlers\Integration\" />
+    <Folder Include="Orders\Queries\GetOrderByName\" />
+    <Folder Include="Orders\Queries\GetOrders\" />
+    <Folder Include="Orders\Queries\GetOrderByCustomer\" />
+  </ItemGroup>
+
+</Project>

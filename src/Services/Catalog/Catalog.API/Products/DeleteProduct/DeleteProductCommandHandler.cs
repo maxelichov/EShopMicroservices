@@ -27,6 +27,5 @@ public class DeleteProductCommandHandler(IDocumentSession session)
         {
             return new DeleteProductResult(false);
         }
-
     }
 }
